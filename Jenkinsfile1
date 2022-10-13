@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    }
+    
     stages{
         stage("first"){
             steps{
@@ -31,5 +31,6 @@ pipeline {
         failure{
             echo "========pipeline execution failed========"
         }
+    }
     }
 
